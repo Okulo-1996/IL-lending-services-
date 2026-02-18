@@ -1,1 +1,34 @@
-
+{
+  "name": "il-lending-services",
+  "version": "1.0.0",
+  "description": "I&L Lending Services - Offline Loan Management System with 20% Monthly Interest",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 10000",
+    "dev": "npx http-server -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git"
+  },
+  "keywords": [
+    "loan-management",
+    "microfinance",
+    "offline-app",
+    "pwa",
+    "lending",
+    "uganda"
+  ],
+  "author": "I&L Lending Services",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Okulo-1996/il lendingservices/issues"
+  },
+  "homepage": "https://github.com/Okulo-1996/il lending services#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
