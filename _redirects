@@ -1,1 +1,11 @@
+# _redirects - Single Page App support
+/*  /index.html  200
 
+# Force HTTPS
+/:splat  https://il-lending-services.onrender.com/:splat  301
+
+# Custom error page
+/404  /index.html  200
+
+# PDF server fallback redirect (if needed)
+/api/pdf  https://pdf-server-z16o.onrender.com/generate-pdf  200
